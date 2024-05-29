@@ -14,6 +14,7 @@ window.addEventListener("resize", function () {
 function files(index) {
   var data = `
     // paste all images here!!
+    image/male0001.png
  `;
   return data.split("\n")[index];
 }
